@@ -9,6 +9,7 @@ def main():
     #upper_camera_settings = load_camera_settings('C:/Users/pirsi/PycharmProjects/pythonProject2/top_camera_settings.json')
     # = load_camera_settings('C:/Users/pirsi/PycharmProjects/pythonProject2/side_camera_settings.json')
 
+
     # Učitavanje kalibracijskih podataka za gornju i bočnu kameru iz direktorija calibration_data
     upper_camera_calibration = load_calibration_data('C:/Users/pirsi/PycharmProjects/pythonProject2/calibration_data/top_camera_calibration.json')
     side_camera_calibration = load_calibration_data('C:/Users/pirsi/PycharmProjects/pythonProject2/calibration_data/side_camera_calibration.json')
